@@ -1,3 +1,25 @@
 /**
- * Created by Евгений Крутов on 26.05.2016.
+ * Created by Евгений Крутов on 25.05.2016.
  */
+$(document).ready(function(){
+    var a = 1;
+    var arr = new Array();
+    arr[0] = "Издевающийся над ближним издевается, однако, и над самим собой.";
+    arr[1] = "Высшее, к чему может стремиться человеческая мысль, — <br>это выйти за свои собственные пределы, придя к парадоксу.";
+    arr[2] = "Наслаждение не в том, что я вкушаю, а в том, чтобы получить желанное.";
+    arr[3] = "Человек всегда надеется на то, что ему следовало бы вспомнить,<br> и вечно вспоминает то, на что ему следовало бы надеяться.";
+    var maxLen = arr.length;
+    var button = document.getElementById("Button1");
+    button.onclick = function(){
+        $("#id1").animate({left:"-1000px"}, 500);
+        $("#id1").animate({opacity:"0"}, 0.5);
+        var text = document.getElementById("id1");
+        text.innerHTML = arr[a];
+        $("#id1").animate({left:"1000px"}, 0.5);
+        $("#id1").animate({opacity:"1"}, 0.5);
+        $("#id1").animate({left:"0px"}, 500);
+        a++;
+        if(a == maxLen)
+            a = 0;
+    }
+});
