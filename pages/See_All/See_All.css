@@ -1,0 +1,63 @@
+.col-sm-3{
+    width:300px;
+    height:200px;
+    background-size:cover;
+    color:white;
+    border:4px solid white;
+}
+#p1{
+     background-image:url('../../images/Byron.jpg');
+ }
+#p2{
+    background-image:url('../../images/Balzak.jpg');
+}
+#p3{
+    background-image:url('../../images/Geraklit.jpeg');
+}
+#p4{
+    background-image:url('../../images/LaoC.jpg');
+}
+#p5{
+    background-image:url('../../images/Klark.jpeg');
+}
+#p6 {
+    background-image: url('../../images/Avrelii.jpg');
+}
+#p7{
+    background-image:url('../../images/Kerkegor.jpg');
+}
+#p8 {
+    background-image: url('../../images/Dryser.jpg');
+}
+#p9{
+    background-image:url('../../images/Bulgakov.jpeg');
+}
+#p10{
+    background-image: url('../../images/Sokrat.jpg');
+}
+#p11{
+    background-image:url('../../images/Ezhen.jpg');
+}
+#p12{
+    background-image:url('../../images/Twain.jpg')
+}
+.text{
+    text-align:center;
+    margin-top:70px;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+a{
+    text-decoration:none;
+}
+a:link{
+    color: black;
+
+}
+a:visited{
+    color: black;
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+    text-decoration:none;
+}
