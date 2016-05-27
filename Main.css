@@ -50,7 +50,7 @@ header p:hover{
     margin-right:30px;
     background-image: url("images/Main.jpg");
     height: 500px;
-    text-shadow: 0.5px 0.5px 0.5px #000000;
+    text-shadow:1.5px 1.5px 1.5px #000000;
 }
 section h2{
     color: white;
@@ -96,8 +96,14 @@ select{
     position:relative;
     left:10px;
     width:100px;
-    border: 2px solid grey;
+    color:#122b40;
+    border: 2px solid #122b40;
     text-align:center;
+
+}
+option{
+    border: 1px solid #122b40;
+    color:#122b40;
 }
 a{
     text-decoration:none;
